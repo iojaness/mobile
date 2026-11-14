@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "GeekShop",
+    "slug": "geekshop",
+    "scheme": "geekshop",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-sharing"
+    ]
+  }
+}

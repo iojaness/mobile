@@ -1,0 +1,40 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno y secretos (el .env.example SI se sube)
+.env
+.env.*
+!.env.example
+
+# Expo / React Native
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Builds nativos generados (si algun dia haces prebuild)
+android/
+ios/
+
+# Metro
+.metro-health-check*
+
+# Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
